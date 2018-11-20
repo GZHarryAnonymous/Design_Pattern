@@ -2,6 +2,7 @@ package abstract_factory_pattern;
 
 public class Main {
     public static void main(String args[]) {
+    	System.out.println("abstract pattern!");
         User user = new User();
         Department dept = new Department();
         //IFactory factory = new SqlServerFactory();
